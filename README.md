@@ -23,7 +23,7 @@
 ## Modelo de dados
 
 - Usuario
-- Log
+- Planet
 
 ## Organização de código automatizado
 
