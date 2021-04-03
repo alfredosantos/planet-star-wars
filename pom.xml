@@ -107,15 +107,8 @@
       <groupId>com.squareup.okhttp</groupId>
       <version>2.7.5</version>
     </dependency>
-
-    <dependency>
-      <artifactId>planet-start-wars</artifactId>
-      <groupId>dev.planet.star.wars</groupId>
-      <version>1.0.0-SNAPSHOT</version>
-    </dependency>
   </dependencies>
-  <description>API to manage planet star wars
-  </description>
+  <description>API to manage planet star wars</description>
   <groupId>dev.planet.star.wars</groupId>
   <modelVersion>4.0.0</modelVersion>
   <name>planet-star-wars</name>
