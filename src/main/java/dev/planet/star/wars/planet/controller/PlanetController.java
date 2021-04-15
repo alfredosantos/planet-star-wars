@@ -65,7 +65,7 @@ public class PlanetController {
       final JsonObject rootObject = jsonElement.getAsJsonObject();
       final JsonArray childObject = rootObject.getAsJsonArray("results");
       final List<Planet> planetList = jsonArrayToList(childObject.toString(), Planet.class);
-      planet.setFilms(planetList.get(0).getFilms());
+      planet.setAmountFilms(planetList.get(0).getFilms().size());
     } catch (Exception e) {
       e.printStackTrace();
     }

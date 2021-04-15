@@ -1,6 +1,8 @@
 package dev.planet.star.wars.planet.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import java.util.List;
 import javax.persistence.Id;
 import lombok.Data;
@@ -21,5 +23,7 @@ public class Planet {
   String name;
   String climate;
   String terrain;
+  @JsonProperty(access = Access.WRITE_ONLY)
   List<String> films;
+  int amountFilms;
 }
